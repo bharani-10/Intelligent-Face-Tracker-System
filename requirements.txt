@@ -1,0 +1,9 @@
+opencv-python
+numpy
+ultralytics
+insightface
+onnxruntime
+supervision
+psycopg[binary]
+streamlit
+python-dotenv

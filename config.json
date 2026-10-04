@@ -1,0 +1,23 @@
+{
+  "input": {
+    "source_type": "file",
+    "source": "videos/video_sample1.mp4"
+  },
+  "detection": {
+    "model": "models/yolov8n-face.pt",
+    "confidence": 0.5,
+    "frame_skip": 2
+  },
+  "recognition": {
+    "similarity_threshold": 0.4
+  },
+  "tracking": {
+    "max_age": 30
+  },
+  "database": {
+    "url_env": "DATABASE_URL"
+  },
+  "logging": {
+    "path": "logs/events.log"
+  }
+}
