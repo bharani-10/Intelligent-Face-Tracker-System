@@ -292,21 +292,6 @@ TODO: add a Loom or YouTube demonstration URL before submission.
 - **Performance optimization:** Model warmup, frame skipping, one embedding per track, and lightweight tracking.
 - **Limitations:** The real PostgreSQL credentials, end-to-end face video run, RTSP test, and full telemetry are still pending.
 
-## Submission Checklist
 
-- [x] Phases 1-4 modules inspected and retained
-- [x] YOLO, InsightFace, and ByteTrack modules present
-- [x] PostgreSQL database abstraction implemented
-- [x] Environment-based database configuration
-- [x] Streamlit dashboard added
-- [x] Image and event logging modules present
-- [x] Configuration and state tests present
-- [ ] Supply valid `DATABASE_URL`
-- [ ] Run PostgreSQL integration tests
-- [ ] Run full pipeline on `video_sample1.mp4`
-- [ ] Capture actual visitor/event/image output
-- [ ] Add CPU/RAM/GPU telemetry
-- [ ] Test RTSP with an available camera
-- [ ] Add demo video URL
 
 This project is a part of a hackathon run by [https://katomaran.com](https://katomaran.com/)
